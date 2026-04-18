@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maria's Travel Dreams</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background-color: #fdf8f5;
+      color: #1e1a1a;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #1e1a1a;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h2 {
+      color: #c8954a;
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: #c9626a;
+    }
+
+    .page-header {
+      background-color: #2e4057;
+      color: white;
+      padding: 50px 40px;
+    }
+
+    .page-header h1 {
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+
+    .page-header p {
+      color: #cdd5e0;
+      font-size: 15px;
+      max-width: 600px;
+      line-height: 1.7;
+    }
+
+    .intro {
+      padding: 40px 40px 10px;
+    }
+
+    .intro h1 {
+      font-size: 26px;
+    }
+
+    .intro p {
+      color: #6b5b5b;
+      line-height: 1.8;
+      max-width: 700px;
+      font-size: 15px;
+      margin-top: 10px;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      padding: 30px 40px 60px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 14px;
+      overflow: hidden;
+      width: 260px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.09);
+    }
+
+    .card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .card-body h2 {
+      font-size: 20px;
+      margin-bottom: 6px;
+    }
+
+    .card-body .tag {
+      background-color: #c9626a;
+      color: white;
+      font-size: 11px;
+      padding: 3px 12px;
+      border-radius: 20px;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .card-body p {
+      color: #6b5b5b;
+      font-size: 13px;
+      line-height: 1.7;
+      margin-bottom: 10px;
+    }
+
+    .card-body ul {
+      padding-left: 16px;
+      color: #6b5b5b;
+      font-size: 12px;
+      line-height: 2;
+    }
+
+    .quote {
+      background-color: #1e1a1a;
+      color: #c8954a;
+      text-align: center;
+      padding: 50px 40px;
+      font-size: 20px;
+      font-style: italic;
+    }
+
+    .quote p {
+      color: #aaa;
+      font-size: 13px;
+      margin-top: 10px;
+      font-style: normal;
+    }
+
+    footer {
+      background-color: #1e1a1a;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h2>✦ Maria</h2>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="hobbies.html">Hobbies</a>
+      <a href="travel.html">Travel</a>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <h1>🌍 My Travel Dreams</h1>
+    <p>The world is a book and those who do not travel read only one page. Here are the places I dream of visiting!</p>
+  </div>
+
+  <div class="intro">
+    <h1>My Bucket List Destinations</h1>
+    <hr>
+    <p>Traveling is one of my greatest passions. I believe exploring the world — its cultures, food, and people — is one of the most enriching experiences a person can have.</p>
+    <br>
+    <p>Below are the four places I dream about the most. Each one is unique and magical in its own way!</p>
+  </div>
+
+  <div class="cards">
+
+    <!-- PARIS -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600&q=80" alt="Paris">
+      <div class="card-body">
+        <h2>🗼 Paris</h2>
+        <span class="tag">France</span>
+        <p>The City of Love! Paris has always been magical to me — the Eiffel Tower, charming cafés and world-class art museums.</p>
+        <hr>
+        <ul>
+          <li>Visit the Eiffel Tower at sunset</li>
+          <li>Explore the Louvre Museum</li>
+          <li>Try fresh croissants and macarons</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- TOKYO -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600&q=80" alt="Tokyo">
+      <div class="card-body">
+        <h2>🏯 Tokyo</h2>
+        <span class="tag">Japan</span>
+        <p>A breathtaking blend of ancient tradition and futuristic technology. I love Japanese culture, from cherry blossoms to neon lights!</p>
+        <hr>
+        <ul>
+          <li>See cherry blossoms in the park</li>
+          <li>Visit Senso-ji Temple</li>
+          <li>Try authentic ramen and sushi</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ROME -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=600&q=80" alt="Rome">
+      <div class="card-body">
+        <h2>🏛️ Rome</h2>
+        <span class="tag">Italy</span>
+        <p>Rome is a living museum — every corner holds thousands of years of history. Plus the food is amazing!</p>
+        <hr>
+        <ul>
+          <li>Explore the Colosseum</li>
+          <li>Toss a coin in Trevi Fountain</li>
+          <li>Eat fresh pasta and gelato!</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- LONDON -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=600&q=80" alt="London">
+      <div class="card-body">
+        <h2>🎡 London</h2>
+        <span class="tag">United Kingdom</span>
+        <p>London is a vibrant, historic city. From Buckingham Palace to the West End, there is so much to see and experience!</p>
+        <hr>
+        <ul>
+          <li>See Big Ben and Westminster</li>
+          <li>Walk through Hyde Park</li>
+          <li>Enjoy English afternoon tea</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="quote">
+    "The world is a book, and those who do not travel read only one page."
+    <p>— Saint Augustine</p>
+  </div>
+
+  <footer>
+    <p>© 2026 Maria's Website</p>
+  </footer>
+
+</body>
+</html>

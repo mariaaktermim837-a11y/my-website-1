@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maria's Hobbies</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background-color: #fdf8f5;
+      color: #1e1a1a;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #1e1a1a;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h2 {
+      color: #c8954a;
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: #c9626a;
+    }
+
+    .page-header {
+      background-color: #3d2b2b;
+      color: white;
+      padding: 50px 40px;
+    }
+
+    .page-header h1 {
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+
+    .page-header p {
+      color: #d4c4c4;
+      font-size: 15px;
+      max-width: 580px;
+      line-height: 1.7;
+    }
+
+    .hobby {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      padding: 50px 40px;
+      border-bottom: 1px solid #ede0e0;
+    }
+
+    .hobby.even {
+      flex-direction: row-reverse;
+      background-color: #f5e6e8;
+    }
+
+    .hobby img {
+      width: 260px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 14px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    .hobby h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #c9626a;
+    }
+
+    .hobby p {
+      color: #6b5b5b;
+      line-height: 1.8;
+      font-size: 15px;
+      max-width: 500px;
+    }
+
+    .hobby ul {
+      margin-top: 14px;
+      padding-left: 18px;
+      color: #6b5b5b;
+      font-size: 14px;
+      line-height: 2;
+    }
+
+    footer {
+      background-color: #1e1a1a;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h2>✦ Maria</h2>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="hobbies.html">Hobbies</a>
+      <a href="travel.html">Travel</a>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <h1>🎨 My Hobbies</h1>
+    <p>These are the things that bring me happiness and keep me inspired every single day!</p>
+  </div>
+
+  <!-- READING -->
+  <div class="hobby">
+    <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80" alt="Reading">
+    <div>
+      <h1>📚 Reading</h1>
+      <hr>
+      <p>Reading is my greatest escape. I love diving into books that challenge my thinking and take me to different worlds. From fiction to self-help, I read everything!</p>
+      <br>
+      <p>There is nothing better than a good book and a warm cup of tea on a quiet afternoon.</p>
+      <ul>
+        <li>Favorite genres: Fiction, Fantasy, Self-Help</li>
+        <li>Favorite time to read: Early mornings</li>
+        <li>Goal: Read at least 20 books this year</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- COOKING -->
+  <div class="hobby even">
+    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80" alt="Cooking">
+    <div>
+      <h1>🍳 Cooking</h1>
+      <hr>
+      <p>Cooking is where I get truly creative! I love trying new recipes and sharing meals with the people I care about. Food is my love language.</p>
+      <br>
+      <p>From baking cookies to making traditional dishes, the kitchen is where I feel most at home.</p>
+      <ul>
+        <li>Specialty: Baking and Middle Eastern cuisine</li>
+        <li>Favorite dish to make: Homemade pasta</li>
+        <li>Best part: Seeing people enjoy my food!</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SPORTS -->
+  <div class="hobby">
+    <img src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=600&q=80" alt="Sports">
+    <div>
+      <h1>⚽ Sports</h1>
+      <hr>
+      <p>Playing sports keeps me energized and focused. I love the excitement of competition and the teamwork that sports require. Being active is a big part of who I am.</p>
+      <br>
+      <p>Whether I'm on the field or cheering from the sidelines, sports always bring out my best energy!</p>
+      <ul>
+        <li>Favorite sport: Football (soccer)</li>
+        <li>Also enjoy: Swimming and badminton</li>
+        <li>Best quality gained: Teamwork and discipline</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- TRAVELING -->
+  <div class="hobby even">
+    <img src="https://images.unsplash.com/photo-1488085061387-422e29b40080?w=600&q=80" alt="Traveling">
+    <div>
+      <h1>✈️ Traveling</h1>
+      <hr>
+      <p>Traveling opens my mind and fills my soul. I love discovering new cultures, tasting local food, and meeting people from all over the world. Every trip teaches me something new!</p>
+      <br>
+      <p>Even just planning a trip brings me so much joy and excitement.</p>
+      <ul>
+        <li>Dream destinations: Paris, Tokyo, Rome, London</li>
+        <li>Travel style: Culture and food tourism</li>
+        <li>Travel goal: Visit every continent someday!</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Maria's Website</p>
+  </footer>
+
+</body>
+</html>
